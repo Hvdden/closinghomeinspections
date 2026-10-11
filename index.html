@@ -1,0 +1,1703 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Closing Home Inspections, LLC. | Licensed MA Home Inspection</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Outfit', 'sans-serif'],
+            heading: ['Plus Jakarta Sans', 'Outfit', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              50: '#f0f6ff',
+              100: '#e0edfe',
+              200: '#bae0fd',
+              500: '#0284c7',
+              600: '#0369a1',
+              700: '#1d4ed8',
+              800: '#1e3a8a',
+              900: '#0f274a',
+              950: '#0a192f',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body {
+      font-family: 'Outfit', sans-serif;
+    }
+    .hero-grid {
+      background-color: #f8fafc;
+      background-image: radial-gradient(#cbd5e1 0.85px, transparent 0.85px), radial-gradient(#cbd5e1 0.85px, #f8fafc 0.85px);
+      background-size: 26px 26px;
+      background-position: 0 0, 13px 13px;
+    }
+    .page-nav-link {
+      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .page-nav-link.active-link {
+      background-color: #0a192f;
+      color: #ffffff;
+      font-weight: 700;
+      box-shadow: 0 1px 3px rgba(10, 25, 47, 0.15);
+    }
+    .page-view {
+      display: none;
+      animation: fadeInPage 0.24s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+    .page-view.active-page {
+      display: block;
+    }
+    @keyframes fadeInPage {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .faq-accordion-body {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s cubic-bezier(0, 1, 0, 1);
+    }
+    .faq-accordion-body.open {
+      max-height: 500px;
+      transition: max-height 0.35s ease-in-out;
+    }
+  </style>
+</head>
+
+<body class="bg-slate-50 text-slate-800 antialiased flex flex-col min-h-screen">
+
+  <!-- ==================== HEADER ==================== -->
+  <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200/90 shadow-[0_1px_4px_rgba(0,0,0,0.03)]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20 gap-3">
+        
+        <!-- Logo & Architectural Crest -->
+        <a href="#home" class="flex items-center gap-3 shrink-0 group py-1" aria-label="Closing Home Inspections, LLC. - Home">
+          <div class="h-12 sm:h-14 w-auto max-w-[160px] sm:max-w-[200px] flex items-center transition-transform group-hover:scale-[1.02]">
+            <svg viewBox="0 0 500 245" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-full select-none">
+              <path d="M 6 120 L 98 40 L 168 96" stroke="#4f71be" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M 148 96 L 250 12 L 352 96" stroke="#4f71be" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M 332 96 L 402 40 L 494 120" stroke="#4f71be" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M 2 120 L 498 120" stroke="#4f71be" stroke-width="9" stroke-linecap="round" />
+              <path d="M 34 114 L 98 58 L 150 100" stroke="#9ca3af" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M 180 114 L 250 48 L 320 114" stroke="#9ca3af" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M 350 100 L 402 58 L 466 114" stroke="#9ca3af" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+              <rect x="233" y="78" width="14" height="14" fill="#4f71be" rx="1.5" />
+              <rect x="253" y="78" width="14" height="14" fill="#4f71be" rx="1.5" />
+              <rect x="233" y="98" width="14" height="14" fill="#4f71be" rx="1.5" />
+              <rect x="253" y="98" width="14" height="14" fill="#4f71be" rx="1.5" />
+              <rect x="88" y="94" width="8.5" height="8.5" fill="#4f71be" rx="1" />
+              <rect x="100.5" y="94" width="8.5" height="8.5" fill="#4f71be" rx="1" />
+              <rect x="88" y="106.5" width="8.5" height="8.5" fill="#4f71be" rx="1" />
+              <rect x="100.5" y="106.5" width="8.5" height="8.5" fill="#4f71be" rx="1" />
+              <rect x="391" y="94" width="8.5" height="8.5" fill="#4f71be" rx="1" />
+              <rect x="403.5" y="94" width="8.5" height="8.5" fill="#4f71be" rx="1" />
+              <rect x="391" y="106.5" width="8.5" height="8.5" fill="#4f71be" rx="1" />
+              <rect x="403.5" y="106.5" width="8.5" height="8.5" fill="#4f71be" rx="1" />
+              <text x="250" y="196" text-anchor="middle" font-family="'Plus Jakarta Sans', 'Outfit', sans-serif" font-size="78" font-weight="800" fill="#4f71be" letter-spacing="0.04em">CLOSING</text>
+              <line x1="16" y1="230" x2="88" y2="230" stroke="#4f71be" stroke-width="3" stroke-linecap="round" />
+              <line x1="412" y1="230" x2="484" y2="230" stroke="#4f71be" stroke-width="3" stroke-linecap="round" />
+              <text x="250" y="235" text-anchor="middle" font-family="'Plus Jakarta Sans', 'Outfit', sans-serif" font-size="20.5" font-weight="800" fill="#787e87" letter-spacing="0.14em">HOME INSPECTIONS LLC.</text>
+            </svg>
+          </div>
+        </a>
+
+        <!-- NAVIGATION LINKS -->
+        <nav class="hidden xl:flex items-center space-x-1 bg-slate-100/80 p-1.5 rounded-2xl border border-slate-200/80">
+          <a href="#home" class="page-nav-link px-3.5 py-1.5 rounded-xl text-xs font-semibold text-slate-600 hover:text-brand-950 hover:bg-slate-200/60" data-page="home">Home</a>
+          <a href="#about" class="page-nav-link px-3.5 py-1.5 rounded-xl text-xs font-semibold text-slate-600 hover:text-brand-950 hover:bg-slate-200/60" data-page="about">About</a>
+          <a href="#reports" class="page-nav-link px-3.5 py-1.5 rounded-xl text-xs font-semibold text-slate-600 hover:text-brand-950 hover:bg-slate-200/60" data-page="reports">Sample Reports</a>
+          <a href="#areas" class="page-nav-link px-3.5 py-1.5 rounded-xl text-xs font-semibold text-slate-600 hover:text-brand-950 hover:bg-slate-200/60" data-page="areas">Areas We Cover</a>
+          <a href="#blog" class="page-nav-link px-3.5 py-1.5 rounded-xl text-xs font-semibold text-slate-600 hover:text-brand-950 hover:bg-slate-200/60" data-page="blog">Blog</a>
+          <a href="#faq" class="page-nav-link px-3.5 py-1.5 rounded-xl text-xs font-semibold text-slate-600 hover:text-brand-950 hover:bg-slate-200/60" data-page="faq">FAQ</a>
+        </nav>
+
+        <!-- Right Action Items -->
+        <div class="hidden sm:flex items-center space-x-4 shrink-0">
+          <a href="tel:4135570847" class="hidden md:flex items-center gap-1.5 text-xs font-bold text-slate-700 hover:text-brand-950 transition-colors">
+            <i data-lucide="phone" class="w-3.5 h-3.5 text-sky-600"></i>
+            (413) 557-0847
+          </a>
+          <button onclick="openBookingModal()" class="inline-flex items-center gap-1.5 bg-brand-950 hover:bg-brand-900 text-white px-4 py-2.5 rounded-xl text-xs font-bold tracking-wide transition shadow-xs">
+            <span>Book Inspection</span>
+            <i data-lucide="arrow-right" class="w-3.5 h-3.5 text-sky-400"></i>
+          </button>
+        </div>
+
+        <!-- Mobile Drawer Toggle Button -->
+        <button id="mobile-toggle-btn" aria-label="Toggle Navigation" class="xl:hidden p-2 rounded-xl text-slate-600 hover:text-brand-950 hover:bg-slate-100 transition">
+          <i data-lucide="menu" class="w-6 h-6"></i>
+        </button>
+      </div>
+
+      <!-- Mobile Navigation Drawer -->
+      <div id="mobile-drawer" class="hidden xl:hidden border-t border-slate-100 py-3 space-y-1.5 text-sm font-semibold text-slate-700 bg-white">
+        <a href="#home" onclick="closeMobileNav()" class="mobile-nav-link block px-3 py-2 rounded-xl hover:bg-slate-50" data-page="home">Home</a>
+        <a href="#about" onclick="closeMobileNav()" class="mobile-nav-link block px-3 py-2 rounded-xl hover:bg-slate-50" data-page="about">About Us</a>
+        <a href="#reports" onclick="closeMobileNav()" class="mobile-nav-link block px-3 py-2 rounded-xl hover:bg-slate-50" data-page="reports">Sample Reports</a>
+        <a href="#areas" onclick="closeMobileNav()" class="mobile-nav-link block px-3 py-2 rounded-xl hover:bg-slate-50" data-page="areas">Areas We Cover</a>
+        <a href="#blog" onclick="closeMobileNav()" class="mobile-nav-link block px-3 py-2 rounded-xl hover:bg-slate-50" data-page="blog">Blog & Seminars</a>
+        <a href="#faq" onclick="closeMobileNav()" class="mobile-nav-link block px-3 py-2 rounded-xl hover:bg-slate-50" data-page="faq">FAQ</a>
+
+        <div class="pt-3 border-t border-slate-100 mt-2 space-y-2 px-1">
+          <a href="tel:4135570847" class="flex items-center justify-center gap-2 py-2.5 text-xs font-bold text-slate-800 border border-slate-200 rounded-xl">
+            <i data-lucide="phone" class="w-4 h-4 text-sky-600"></i> Call (413) 557-0847
+          </a>
+          <button onclick="openBookingModal(); closeMobileNav();" class="block w-full text-center bg-brand-950 text-white py-3 rounded-xl text-xs font-bold uppercase tracking-wider">
+            Schedule Inspection Now
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== MAIN MULTI-PAGE ROUTER CONTAINER ==================== -->
+  <main class="flex-grow">
+    
+    <!-- ******************** PAGE 1: HOME ******************** -->
+    <div id="page-home" class="page-view active-page">
+      <!-- Hero Section -->
+      <section class="hero-grid pt-14 pb-20 sm:pt-20 sm:pb-28 border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="grid lg:grid-cols-12 gap-12 items-center">
+            
+            <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+              <div class="inline-flex flex-wrap items-center gap-2 px-3.5 py-1.5 rounded-full bg-sky-100 text-brand-950 text-xs font-semibold border border-sky-200">
+                <span class="w-2 h-2 rounded-full bg-sky-600 animate-pulse"></span>
+                <span>MA License #1062 &bull; InterNACHI Certified &bull; English &amp; Español</span>
+              </div>
+
+              <h1 class="font-heading text-4xl sm:text-5xl lg:text-6xl font-extrabold text-brand-950 tracking-tight leading-[1.12]">
+                Close on your home with <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-950 via-brand-800 to-sky-600">absolute certainty.</span>
+              </h1>
+
+              <p class="text-slate-600 text-base sm:text-lg max-w-2xl mx-auto lg:mx-0 leading-relaxed font-normal">
+                Welcome to <strong>Closing Home Inspections, LLC.</strong> We uncover hidden defects, clarify safety risks, and deliver easy-to-read same-day photo reports so you can negotiate or close with total confidence.
+              </p>
+
+              <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
+                <button onclick="openBookingModal()" class="w-full sm:w-auto px-7 py-3.5 rounded-xl bg-brand-950 hover:bg-brand-900 text-white font-bold text-xs uppercase tracking-wider shadow-md flex items-center justify-center gap-2 transition">
+                  <i data-lucide="calendar" class="w-4 h-4 text-sky-400"></i>
+                  Schedule Your Inspection
+                </button>
+                <a href="#reports" class="w-full sm:w-auto px-7 py-3.5 rounded-xl bg-white hover:bg-slate-100 text-brand-950 font-bold text-xs uppercase tracking-wider border border-slate-300 shadow-2xs flex items-center justify-center gap-2 transition">
+                  <i data-lucide="file-check" class="w-4 h-4 text-slate-500"></i>
+                  View Sample Reports
+                </a>
+              </div>
+
+              <!-- Trust Metrics -->
+              <div class="pt-6 border-t border-slate-200 grid grid-cols-3 gap-3 text-center">
+                <div class="p-3 bg-white/80 rounded-2xl border border-slate-200">
+                  <p class="font-extrabold text-brand-950 text-xl lg:text-2xl">400+</p>
+                  <p class="text-[11px] text-slate-500 font-medium">Points Inspected</p>
+                </div>
+                <div class="p-3 bg-white/80 rounded-2xl border border-slate-200">
+                  <p class="font-extrabold text-brand-950 text-xl lg:text-2xl">24 Hr</p>
+                  <p class="text-[11px] text-slate-500 font-medium">Digital Turnaround</p>
+                </div>
+                <div class="p-3 bg-white/80 rounded-2xl border border-slate-200">
+                  <p class="font-extrabold text-brand-950 text-xl lg:text-2xl">100%</p>
+                  <p class="text-[11px] text-slate-500 font-medium">Licensed & Insured</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Hero Image Banner -->
+            <div class="lg:col-span-5 relative">
+              <div class="relative mx-auto max-w-md lg:max-w-none">
+                <div class="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-slate-900">
+                  <img 
+                    src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=1000&q=80" 
+                    alt="Inspected colonial home in Massachusetts"
+                    class="w-full h-80 sm:h-96 object-cover"
+                    onerror="this.src='https://placehold.co/600x400/0a192f/ffffff?text=Inspection+Property'"
+                  />
+                  <div class="absolute inset-0 bg-gradient-to-t from-brand-950/90 via-transparent to-transparent"></div>
+                  <div class="absolute bottom-4 left-4 right-4 text-white p-3.5 rounded-2xl bg-brand-950/80 backdrop-blur border border-white/10 flex items-center justify-between">
+                    <div>
+                      <p class="text-xs text-sky-400 font-bold uppercase tracking-wider">Independent Inspection</p>
+                      <p class="text-sm font-semibold">Foundation, HVAC, Roof & Electrical</p>
+                    </div>
+                    <div class="h-9 w-9 rounded-xl bg-sky-600 flex items-center justify-center text-white shrink-0">
+                      <i data-lucide="shield-check" class="w-5 h-5"></i>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="hidden sm:flex absolute -top-4 -left-6 bg-white p-3.5 rounded-2xl shadow-xl border border-slate-200 items-center gap-3">
+                  <div class="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center">
+                    <i data-lucide="award" class="w-5 h-5"></i>
+                  </div>
+                  <div>
+                    <p class="text-xs font-bold text-brand-950">InterNACHI Standard</p>
+                    <p class="text-[10px] text-slate-500">Strict SOP Protocol</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- 3 Core Pillars Section -->
+      <section class="py-20 bg-white border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          
+          <div class="text-center max-w-3xl mx-auto mb-16">
+            <h2 class="text-xs uppercase tracking-widest font-bold text-sky-600 mb-2">Our On-Site Philosophy</h2>
+            <p class="font-heading text-3xl sm:text-4xl font-extrabold text-brand-950 tracking-tight">
+              A Thorough, Uncompromising Methodology
+            </p>
+            <p class="mt-3 text-slate-600 text-sm sm:text-base">
+              Every home holds unique characteristics. We inspect every critical component so you encounter zero unwelcome surprises on closing day.
+            </p>
+          </div>
+
+          <div class="grid md:grid-cols-3 gap-8">
+            
+            <!-- Pillar 1 -->
+            <div class="bg-slate-50 rounded-3xl overflow-hidden border border-slate-200 hover:shadow-lg transition group flex flex-col justify-between">
+              <div>
+                <div class="h-56 overflow-hidden relative">
+                  <img 
+                    src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80" 
+                    alt="Electrical panel inspection" 
+                    class="w-full h-full object-cover group-hover:scale-105 transition duration-500"
+                    onerror="this.src='https://placehold.co/600x400/1e293b/ffffff?text=Panel+Inspection'"
+                  />
+                  <div class="absolute top-3 left-3 bg-brand-950/90 text-white text-[11px] px-2.5 py-1 rounded-lg font-bold">
+                    Standard 01
+                  </div>
+                </div>
+                <div class="p-6">
+                  <div class="w-10 h-10 rounded-xl bg-sky-100 text-brand-900 flex items-center justify-center mb-4">
+                    <i data-lucide="search" class="w-5 h-5"></i>
+                  </div>
+                  <h3 class="font-heading text-lg font-bold text-brand-950 mb-2">Providing Home Inspections</h3>
+                  <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+                    Impartial, deep examinations for buyers, sellers, and real estate professionals. We assess mechanical functions, structural elements, and produce detailed photo inventories.
+                  </p>
+                </div>
+              </div>
+              <div class="px-6 pb-6 pt-2 border-t border-slate-200/80 text-xs font-bold text-brand-950 flex items-center gap-1.5">
+                <i data-lucide="check" class="w-4 h-4 text-emerald-600"></i> High-resolution digital photo report
+              </div>
+            </div>
+
+            <!-- Pillar 2 -->
+            <div class="bg-slate-50 rounded-3xl overflow-hidden border border-slate-200 hover:shadow-lg transition group flex flex-col justify-between">
+              <div>
+                <div class="h-56 overflow-hidden relative">
+                  <img 
+                    src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80" 
+                    alt="Attic and rafter inspection" 
+                    class="w-full h-full object-cover group-hover:scale-105 transition duration-500"
+                    onerror="this.src='https://placehold.co/600x400/1e293b/ffffff?text=Attic+Inspection'"
+                  />
+                  <div class="absolute top-3 left-3 bg-brand-950/90 text-white text-[11px] px-2.5 py-1 rounded-lg font-bold">
+                    Standard 02
+                  </div>
+                </div>
+                <div class="p-6">
+                  <div class="w-10 h-10 rounded-xl bg-sky-100 text-brand-900 flex items-center justify-center mb-4">
+                    <i data-lucide="eye" class="w-5 h-5"></i>
+                  </div>
+                  <h3 class="font-heading text-lg font-bold text-brand-950 mb-2">No Stone Left Unturned</h3>
+                  <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+                    We crawl into unexcavated basements, inspect attic insulation and rafters, test water heater pressure relief valves, inspect chimney flashing, and document concealed moisture.
+                  </p>
+                </div>
+              </div>
+              <div class="px-6 pb-6 pt-2 border-t border-slate-200/80 text-xs font-bold text-brand-950 flex items-center gap-1.5">
+                <i data-lucide="check" class="w-4 h-4 text-emerald-600"></i> Full crawlspace & attic exploration
+              </div>
+            </div>
+
+            <!-- Pillar 3 -->
+            <div class="bg-slate-50 rounded-3xl overflow-hidden border border-slate-200 hover:shadow-lg transition group flex flex-col justify-between">
+              <div>
+                <div class="h-56 overflow-hidden relative">
+                  <img 
+                    src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=800&q=80" 
+                    alt="Walkthrough with client" 
+                    class="w-full h-full object-cover group-hover:scale-105 transition duration-500"
+                    onerror="this.src='https://placehold.co/600x400/1e293b/ffffff?text=Client+Walkthrough'"
+                  />
+                  <div class="absolute top-3 left-3 bg-brand-950/90 text-white text-[11px] px-2.5 py-1 rounded-lg font-bold">
+                    Standard 03
+                  </div>
+                </div>
+                <div class="p-6">
+                  <div class="w-10 h-10 rounded-xl bg-sky-100 text-brand-900 flex items-center justify-center mb-4">
+                    <i data-lucide="users" class="w-5 h-5"></i>
+                  </div>
+                  <h3 class="font-heading text-lg font-bold text-brand-950 mb-2">Home Showings & Consultation</h3>
+                  <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+                    Prospective buyers are invited to join the walkthrough. We point out the main water and gas shutoff valves, demonstrate HVAC filters, and answer your practical questions in plain language.
+                  </p>
+                </div>
+              </div>
+              <div class="px-6 pb-6 pt-2 border-t border-slate-200/80 text-xs font-bold text-brand-950 flex items-center gap-1.5">
+                <i data-lucide="check" class="w-4 h-4 text-emerald-600"></i> One-on-one on-site debriefing
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- Founder & Principal Inspector Spotlight (Home Page) -->
+      <section class="py-16 bg-slate-100/70 border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="bg-white rounded-3xl p-8 sm:p-12 border border-slate-200 shadow-sm">
+            <div class="grid lg:grid-cols-12 gap-10 items-center">
+              
+              <div class="lg:col-span-4 text-center lg:text-left">
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-100 text-sky-800 text-xs font-bold uppercase tracking-wider mb-3">
+                  <i data-lucide="badge-check" class="w-3.5 h-3.5 text-sky-600"></i>
+                  MA License #1062
+                </div>
+                <h3 class="text-xs uppercase tracking-widest font-bold text-slate-500">Founder &amp; Principal Inspector</h3>
+                <h2 class="font-heading text-3xl font-extrabold text-brand-950 mt-1">George Eliza</h2>
+                <div class="mt-4 flex flex-wrap gap-2 justify-center lg:justify-start">
+                  <span class="px-3 py-1 bg-slate-100 text-slate-700 text-xs rounded-xl font-semibold border border-slate-200 flex items-center gap-1.5">
+                    <i data-lucide="languages" class="w-3.5 h-3.5 text-sky-600"></i> English &amp; Español
+                  </span>
+                  <span class="px-3 py-1 bg-slate-100 text-slate-700 text-xs rounded-xl font-semibold border border-slate-200 flex items-center gap-1.5">
+                    <i data-lucide="award" class="w-3.5 h-3.5 text-emerald-600"></i> 20+ Years Exp.
+                  </span>
+                </div>
+              </div>
+
+              <div class="lg:col-span-8 space-y-4 text-slate-700 text-sm leading-relaxed border-t lg:border-t-0 lg:border-l border-slate-200 pt-6 lg:pt-0 lg:pl-10">
+                <p>
+                  George has over 20 years of experience maintaining residential and commercial properties. He has a high standard for inspecting properties and always puts his customers first.
+                </p>
+                <p>
+                  We are proud to serve Massachusetts. As professional home inspectors we go above and beyond for our clients to ensure whether they are buying or selling a home they receive the most accurate information possible. Book an appointment with us today!
+                </p>
+
+                <div class="pt-2 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                  <div class="text-xs text-slate-500">
+                    <p class="font-bold text-brand-950">MASSACHUSETTS HOME INSPECTOR LICENSE NUMBER 1062</p>
+                    <p>All inspections are done according to the &ldquo;Massachusetts Standard of Practice&rdquo;</p>
+                  </div>
+                  <div class="flex items-center gap-3">
+                    <button onclick="openBookingModal()" class="px-6 py-3 rounded-xl bg-brand-950 hover:bg-brand-900 text-white font-bold text-xs uppercase tracking-wider transition shadow-xs flex items-center gap-2 shrink-0">
+                      <span>Get in Touch</span>
+                      <i data-lucide="arrow-right" class="w-3.5 h-3.5 text-sky-400"></i>
+                    </button>
+                    <a href="tel:4135570847" class="px-4 py-3 rounded-xl border border-slate-300 text-slate-700 hover:text-brand-950 hover:bg-slate-50 font-bold text-xs transition flex items-center gap-1.5 shrink-0">
+                      <i data-lucide="phone" class="w-3.5 h-3.5 text-sky-600"></i> Call Direct
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- What is Covered in Your Home Inspection Overview -->
+      <section class="py-16 bg-slate-50 border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="bg-white rounded-3xl p-8 sm:p-12 border border-slate-200 shadow-sm">
+            <div class="max-w-3xl mb-8">
+              <span class="text-sky-600 font-bold text-xs uppercase tracking-widest">Inspection Scope</span>
+              <h3 class="font-heading font-extrabold text-2xl sm:text-3xl text-brand-950 mt-1">What is Covered in Your Home Inspection</h3>
+              <p class="text-slate-600 text-sm mt-2">Every major system from the foundation slab to the rooftop chimney caps is examined under Massachusetts Standards of Practice.</p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-4">
+              <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200">
+                <i data-lucide="zap" class="w-5 h-5 text-amber-500 mb-2"></i>
+                <h4 class="font-heading font-bold text-sm text-brand-950">Electrical Panels</h4>
+                <p class="text-xs text-slate-500 mt-1">Wiring, breakers, AFCI/GFCI protection, bonding & grounds.</p>
+              </div>
+              <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200">
+                <i data-lucide="flame" class="w-5 h-5 text-rose-500 mb-2"></i>
+                <h4 class="font-heading font-bold text-sm text-brand-950">Heating & Cooling</h4>
+                <p class="text-xs text-slate-500 mt-1">Furnace, heat pumps, boilers, ductwork & thermostats.</p>
+              </div>
+              <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200">
+                <i data-lucide="droplet" class="w-5 h-5 text-sky-500 mb-2"></i>
+                <h4 class="font-heading font-bold text-sm text-brand-950">Plumbing & Water</h4>
+                <p class="text-xs text-slate-500 mt-1">Water supply lines, drain waste vent pipes & TPR valves.</p>
+              </div>
+              <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200">
+                <i data-lucide="shield" class="w-5 h-5 text-emerald-500 mb-2"></i>
+                <h4 class="font-heading font-bold text-sm text-brand-950">Roof & Flashing</h4>
+                <p class="text-xs text-slate-500 mt-1">Shingles, gutters, skylights, chimney & roof penetrations.</p>
+              </div>
+            </div>
+
+            <div class="mt-8 pt-6 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-between gap-4">
+              <span class="text-xs text-slate-500">Want to see the actual format of our delivery?</span>
+              <a href="#reports" class="text-xs font-bold text-sky-700 hover:text-brand-950 flex items-center gap-1.5">
+                Browse Sample Defect Reports &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ******************** PAGE 2: ABOUT ******************** -->
+    <div id="page-about" class="page-view">
+      <section class="py-16 bg-white border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          
+          <div class="text-center max-w-3xl mx-auto mb-16">
+            <span class="text-sky-600 text-xs font-bold uppercase tracking-widest">Company Background</span>
+            <h1 class="font-heading text-3xl sm:text-5xl font-extrabold text-brand-950 tracking-tight mt-1">About Closing Home Inspections, LLC.</h1>
+            <p class="text-slate-600 text-sm sm:text-base mt-3 leading-relaxed">
+              We stand as an independent technical advocate for home buyers, sellers, and real estate professionals across Western &amp; Central Massachusetts.
+            </p>
+          </div>
+
+          <div class="grid lg:grid-cols-12 gap-12 items-start">
+            
+            <!-- Founder Portrait Card with image.jpeg Placeholder -->
+            <div class="lg:col-span-5 bg-slate-50 p-6 sm:p-8 rounded-3xl border border-slate-200 shadow-sm text-center flex flex-col items-center">
+              
+              <!-- Company Founder Portrait (image.jpeg Placeholder) -->
+              <div class="relative w-full max-w-[340px] aspect-[4/5] rounded-2xl overflow-hidden shadow-lg border-4 border-white bg-slate-900 group mb-6">
+                <img 
+                  src="image.jpeg" 
+                  alt="George Eliza - Founder and Principal Inspector of Closing Home Inspections, LLC." 
+                  class="w-full h-full object-cover object-top transition duration-500 group-hover:scale-105"
+                  onerror="this.onerror=null; this.src='https://placehold.co/600x750/0a192f/ffffff?text=George+Eliza+%7C+Founder+Portrait';"
+                />
+                <div class="absolute inset-0 bg-gradient-to-t from-brand-950/85 via-transparent to-transparent pointer-events-none"></div>
+                <div class="absolute bottom-3 left-3 right-3 text-left bg-brand-950/75 backdrop-blur-xs p-3 rounded-xl border border-white/10">
+                  <p class="text-white font-heading font-bold text-sm">George Eliza</p>
+                  <p class="text-sky-300 text-[11px] font-medium">Founder &amp; Principal Inspector</p>
+                </div>
+              </div>
+
+              <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 text-xs font-bold mb-2">
+                <i data-lucide="shield-check" class="w-3.5 h-3.5"></i> MA LICENSE # 1062
+              </div>
+              <h3 class="font-heading font-bold text-brand-950 text-base">George Eliza &bull; Principal Inspector</h3>
+              <p class="text-slate-500 text-xs mt-1">Over 20 Years Property Experience</p>
+              
+              <div class="w-full border-t border-slate-200 my-4"></div>
+              
+              <ul class="text-left text-xs text-slate-600 space-y-2.5 w-full">
+                <li class="flex items-center gap-2"><i data-lucide="check-circle" class="w-4 h-4 text-emerald-600 shrink-0"></i> <strong>Bilingual:</strong> Inspections in English &amp; Spanish</li>
+                <li class="flex items-center gap-2"><i data-lucide="check-circle" class="w-4 h-4 text-emerald-600 shrink-0"></i> Strictly adhering to MA Standards of Practice</li>
+                <li class="flex items-center gap-2"><i data-lucide="check-circle" class="w-4 h-4 text-emerald-600 shrink-0"></i> Errors &amp; Omissions and General Liability Insured</li>
+                <li class="flex items-center gap-2"><i data-lucide="check-circle" class="w-4 h-4 text-emerald-600 shrink-0"></i> Unbiased: Zero contractor repair kickbacks or referral fees</li>
+                <li class="flex items-center gap-2"><i data-lucide="check-circle" class="w-4 h-4 text-emerald-600 shrink-0"></i> Post-closing question hotline available to every client</li>
+              </ul>
+            </div>
+
+            <!-- Detailed Narrative -->
+            <div class="lg:col-span-7 space-y-5">
+              <div>
+                <span class="text-sky-600 font-bold text-xs uppercase tracking-wider">Founder and Principal Inspector</span>
+                <h2 class="font-heading text-2xl sm:text-3xl font-extrabold text-brand-950 mt-1">George Eliza</h2>
+              </div>
+
+              <div class="p-4 rounded-2xl bg-sky-50 border border-sky-200 flex items-center justify-between flex-wrap gap-2">
+                <div class="text-xs font-bold text-brand-950">
+                  MASSACHUSETTS HOME INSPECTOR LICENSE NUMBER 1062
+                </div>
+                <div class="text-xs font-semibold text-sky-800 flex items-center gap-1.5">
+                  <i data-lucide="languages" class="w-4 h-4 text-sky-600"></i> We offer inspections conducted in both English &amp; Spanish.
+                </div>
+              </div>
+
+              <p class="text-slate-700 leading-relaxed text-sm sm:text-base font-medium">
+                George has over 20 years of experience maintaining residential and commercial properties. He has a high standard for inspecting properties and always puts his customers first.
+              </p>
+
+              <p class="text-slate-600 leading-relaxed text-sm sm:text-base">
+                We are proud to serve Massachusetts. As professional home inspectors we go above and beyond for our clients to ensure whether they are buying or selling a home they receive the most accurate information possible. Book an appointment with us today!
+              </p>
+
+              <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200">
+                <p class="text-xs text-slate-600 leading-relaxed">
+                  <strong class="text-brand-950 font-bold">Standard of Excellence:</strong> All inspections are done according to the <strong>&ldquo;Massachusetts Standard of Practice&rdquo;</strong>. We uncover concealed issues, explain maintenance realities in clear terminology, and ensure complete transparency before closing.
+                </p>
+              </div>
+
+              <!-- Brand Crest Mini Badge -->
+              <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200 flex items-center gap-4">
+                <div class="w-20 shrink-0">
+                  <svg viewBox="0 0 500 245" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-auto select-none">
+                    <path d="M 6 120 L 98 40 L 168 96" stroke="#4f71be" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M 148 96 L 250 12 L 352 96" stroke="#4f71be" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M 332 96 L 402 40 L 494 120" stroke="#4f71be" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M 2 120 L 498 120" stroke="#4f71be" stroke-width="9" stroke-linecap="round" />
+                    <rect x="233" y="78" width="14" height="14" fill="#4f71be" rx="1.5" />
+                    <rect x="253" y="78" width="14" height="14" fill="#4f71be" rx="1.5" />
+                    <text x="250" y="196" text-anchor="middle" font-family="'Plus Jakarta Sans', 'Outfit', sans-serif" font-size="78" font-weight="800" fill="#4f71be" letter-spacing="0.04em">CLOSING</text>
+                    <text x="250" y="235" text-anchor="middle" font-family="'Plus Jakarta Sans', 'Outfit', sans-serif" font-size="20.5" font-weight="800" fill="#787e87" letter-spacing="0.14em">HOME INSPECTIONS LLC.</text>
+                  </svg>
+                </div>
+                <div class="text-xs text-slate-600">
+                  <p class="font-bold text-brand-950">Independent &amp; Family-Operated</p>
+                  <p class="text-[11px] text-slate-500">Committed to protecting your investment with comprehensive residential inspection services.</p>
+                </div>
+              </div>
+
+              <div class="pt-4 flex flex-wrap items-center gap-4">
+                <button onclick="openBookingModal()" class="inline-flex items-center gap-2 bg-brand-950 text-white px-7 py-3.5 rounded-xl font-bold text-xs uppercase tracking-wider hover:bg-brand-900 transition shadow-xs">
+                  <span>Get in Touch</span> <i data-lucide="arrow-right" class="w-4 h-4 text-sky-400"></i>
+                </button>
+                <a href="tel:4135570847" class="inline-flex items-center gap-2 px-5 py-3.5 rounded-xl border border-slate-300 text-slate-800 font-bold text-xs uppercase tracking-wider hover:bg-slate-100 transition">
+                  <i data-lucide="phone" class="w-4 h-4 text-sky-600"></i> (413) 557-0847
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+    </div>
+
+    <!-- ******************** PAGE 3: SAMPLE REPORTS ******************** -->
+    <div id="page-reports" class="page-view">
+      <section class="py-16 bg-white border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          
+          <div class="text-center max-w-3xl mx-auto mb-14">
+            <span class="text-sky-600 text-xs font-bold uppercase tracking-widest">Inspection Deliverables</span>
+            <h1 class="font-heading text-3xl sm:text-5xl font-extrabold text-brand-950 tracking-tight mt-1">Typical Massachusetts Home Inspection Report</h1>
+            <p class="text-slate-600 text-sm sm:text-base mt-2">Every report we generate strictly adheres to the Massachusetts Standard of Practice (266 CMR 6.00). Discover how your inspection report is organized, rated, and utilized during real estate closing negotiations.</p>
+          </div>
+
+          <!-- Sample Report Header Banner -->
+          <div class="bg-slate-50 rounded-3xl p-6 sm:p-8 border border-slate-200 shadow-2xs mb-12 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="space-y-1 text-center md:text-left">
+              <div class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-md bg-emerald-100 text-emerald-800 text-[11px] font-bold">
+                <i data-lucide="check-circle" class="w-3.5 h-3.5"></i> Massachusetts Standard of Practice (266 CMR 6.00)
+              </div>
+              <h3 class="font-heading font-extrabold text-xl sm:text-2xl text-brand-950">Official Spectora Digital Sample Report</h3>
+              <p class="text-xs text-slate-500">Explore an authentic, full-length interactive residential inspection report with expandable sections and high-definition photographs.</p>
+            </div>
+            
+            <a href="https://app.spectora.com/home-inspectors/closing-home-inspections-llc/sample_report?sample_id=20888" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-5 py-3 rounded-xl bg-brand-950 text-white text-xs font-bold hover:bg-brand-900 transition shadow-xs shrink-0">
+              <i data-lucide="file-text" class="w-4 h-4 text-sky-400"></i>
+              <span>View Live Sample Report</span>
+              <i data-lucide="external-link" class="w-3.5 h-3.5 text-slate-400"></i>
+            </a>
+          </div>
+
+          <!-- Report Architecture: Key Pillars -->
+          <div class="grid md:grid-cols-3 gap-6 mb-12">
+            <div class="p-6 rounded-3xl bg-slate-50 border border-slate-200 shadow-2xs space-y-3">
+              <div class="w-10 h-10 rounded-xl bg-sky-100 text-sky-700 flex items-center justify-center font-bold">
+                <i data-lucide="camera" class="w-5 h-5"></i>
+              </div>
+              <h3 class="font-heading font-bold text-base text-brand-950">High-Resolution Digital Photos</h3>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                Every observation, defect, or safety item is illustrated with color photos and directional arrows, removing ambiguity when sharing findings with sellers, agents, or contractors.
+              </p>
+            </div>
+
+            <div class="p-6 rounded-3xl bg-slate-50 border border-slate-200 shadow-2xs space-y-3">
+              <div class="w-10 h-10 rounded-xl bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold">
+                <i data-lucide="clock" class="w-5 h-5"></i>
+              </div>
+              <h3 class="font-heading font-bold text-base text-brand-950">Same-Day / 24-Hr Delivery</h3>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                Massachusetts real estate contingency periods move quickly. We publish your cloud-based digital report within 24 hours of the on-site walkthrough with instant PDF download capabilities.
+              </p>
+            </div>
+
+            <div class="p-6 rounded-3xl bg-slate-50 border border-slate-200 shadow-2xs space-y-3">
+              <div class="w-10 h-10 rounded-xl bg-indigo-100 text-indigo-700 flex items-center justify-center font-bold">
+                <i data-lucide="filter" class="w-5 h-5"></i>
+              </div>
+              <h3 class="font-heading font-bold text-base text-brand-950">Categorized Action Summary</h3>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                Instead of sifting through hundreds of pages, our reports feature an Executive Summary categorized by severity—separating urgent safety hazards from routine maintenance items.
+              </p>
+            </div>
+          </div>
+
+          <!-- Rating Classifications Legend -->
+          <div class="bg-white rounded-3xl p-6 sm:p-8 border border-slate-200 shadow-sm mb-12">
+            <div class="max-w-2xl mb-6">
+              <span class="text-xs font-bold text-sky-600 uppercase tracking-wider">Evaluation Legend</span>
+              <h3 class="font-heading font-extrabold text-xl sm:text-2xl text-brand-950 mt-1">Understanding Report Rating Codes</h3>
+              <p class="text-xs text-slate-500 mt-1">In compliance with Massachusetts home inspection reporting guidelines, systems and components are categorized using standardized ratings:</p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-5 gap-3.5 text-xs">
+              <div class="p-4 rounded-2xl bg-emerald-50/70 border border-emerald-200">
+                <div class="font-bold text-emerald-900 flex items-center gap-1.5 mb-1.5">
+                  <span class="w-5 h-5 rounded-md bg-emerald-600 text-white flex items-center justify-center text-[10px] font-black">A</span>
+                  <span>Acceptable</span>
+                </div>
+                <p class="text-slate-600 text-[11px] leading-relaxed">Inspected and performing its intended design function without observed significant defects.</p>
+              </div>
+
+              <div class="p-4 rounded-2xl bg-slate-100 border border-slate-200">
+                <div class="font-bold text-slate-800 flex items-center gap-1.5 mb-1.5">
+                  <span class="w-5 h-5 rounded-md bg-slate-600 text-white flex items-center justify-center text-[10px] font-black">M</span>
+                  <span>Marginal / Wear</span>
+                </div>
+                <p class="text-slate-600 text-[11px] leading-relaxed">Operational but nearing the end of useful life, showing routine wear, or requiring routine homeowner maintenance.</p>
+              </div>
+
+              <div class="p-4 rounded-2xl bg-amber-50 border border-amber-200">
+                <div class="font-bold text-amber-900 flex items-center gap-1.5 mb-1.5">
+                  <span class="w-5 h-5 rounded-md bg-amber-600 text-white flex items-center justify-center text-[10px] font-black">D</span>
+                  <span>Defective</span>
+                </div>
+                <p class="text-slate-600 text-[11px] leading-relaxed">Component is damaged, inoperable, missing, or requires repair or evaluation by a licensed specialist.</p>
+              </div>
+
+              <div class="p-4 rounded-2xl bg-rose-50 border border-rose-200">
+                <div class="font-bold text-rose-900 flex items-center gap-1.5 mb-1.5">
+                  <span class="w-5 h-5 rounded-md bg-rose-600 text-white flex items-center justify-center text-[10px] font-black">!</span>
+                  <span>Immediate Action</span>
+                </div>
+                <p class="text-slate-600 text-[11px] leading-relaxed">Identified safety hazards, fire risks, or severe structural threats requiring immediate professional remediation.</p>
+              </div>
+
+              <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200">
+                <div class="font-bold text-slate-700 flex items-center gap-1.5 mb-1.5">
+                  <span class="w-5 h-5 rounded-md bg-slate-400 text-white flex items-center justify-center text-[10px] font-black">NI</span>
+                  <span>Not Inspected</span>
+                </div>
+                <p class="text-slate-600 text-[11px] leading-relaxed">Component was present but not accessible due to personal storage, snow cover, safety risks, or lack of utilities.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Core Systems Inspected -->
+          <div class="bg-slate-50 rounded-3xl p-6 sm:p-10 border border-slate-200 mb-12">
+            <div class="text-center max-w-2xl mx-auto mb-10">
+              <span class="text-sky-600 text-xs font-bold uppercase tracking-wider">Comprehensive Scope</span>
+              <h3 class="font-heading font-extrabold text-2xl text-brand-950 mt-1">What Is Evaluated in Every Report</h3>
+              <p class="text-xs sm:text-sm text-slate-600 mt-2">Every Massachusetts home inspection covers all readily accessible structural, mechanical, and safety components of the property.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+              <div class="p-5 rounded-2xl bg-white border border-slate-200 shadow-2xs space-y-2">
+                <div class="flex items-center gap-2 text-brand-950 font-bold text-sm">
+                  <i data-lucide="shield" class="w-4 h-4 text-sky-600"></i>
+                  <h4>Roof & Drainage</h4>
+                </div>
+                <p class="text-[11px] text-slate-600 leading-relaxed">
+                  Roof coverings, visible underlayment, valleys, flashing at chimneys & skylights, gutters, and downspout discharge distances from foundations.
+                </p>
+              </div>
+
+              <div class="p-5 rounded-2xl bg-white border border-slate-200 shadow-2xs space-y-2">
+                <div class="flex items-center gap-2 text-brand-950 font-bold text-sm">
+                  <i data-lucide="home" class="w-4 h-4 text-emerald-600"></i>
+                  <h4>Exterior & Grading</h4>
+                </div>
+                <p class="text-[11px] text-slate-600 leading-relaxed">
+                  Siding, trim, eaves, soffits, fascia, decks, ledger attachments, handrails, steps, exterior doors, patio settlement, and perimeter slope drainage.
+                </p>
+              </div>
+
+              <div class="p-5 rounded-2xl bg-white border border-slate-200 shadow-2xs space-y-2">
+                <div class="flex items-center gap-2 text-brand-950 font-bold text-sm">
+                  <i data-lucide="hammer" class="w-4 h-4 text-amber-600"></i>
+                  <h4>Basement & Structure</h4>
+                </div>
+                <p class="text-[11px] text-slate-600 leading-relaxed">
+                  Foundation walls (poured concrete, fieldstone, block), sill plates, floor joists, structural support posts, efflorescence/moisture staining, and crawlspaces.
+                </p>
+              </div>
+
+              <div class="p-5 rounded-2xl bg-white border border-slate-200 shadow-2xs space-y-2">
+                <div class="flex items-center gap-2 text-brand-950 font-bold text-sm">
+                  <i data-lucide="zap" class="w-4 h-4 text-rose-600"></i>
+                  <h4>Electrical Systems</h4>
+                </div>
+                <p class="text-[11px] text-slate-600 leading-relaxed">
+                  Service drops, meters, main breaker panels, subpanels, double-tapped breakers, bonding bars, branch wiring, GFCI/AFCI receptacles, and fixture operation.
+                </p>
+              </div>
+
+              <div class="p-5 rounded-2xl bg-white border border-slate-200 shadow-2xs space-y-2">
+                <div class="flex items-center gap-2 text-brand-950 font-bold text-sm">
+                  <i data-lucide="droplet" class="w-4 h-4 text-sky-600"></i>
+                  <h4>Plumbing & Water</h4>
+                </div>
+                <p class="text-[11px] text-slate-600 leading-relaxed">
+                  Main water shutoff valve, supply and distribution piping, drain/waste/vent lines, water heaters, TPR relief valves, faucets, functional flow, and drainage.
+                </p>
+              </div>
+
+              <div class="p-5 rounded-2xl bg-white border border-slate-200 shadow-2xs space-y-2">
+                <div class="flex items-center gap-2 text-brand-950 font-bold text-sm">
+                  <i data-lucide="flame" class="w-4 h-4 text-amber-600"></i>
+                  <h4>Heating & Cooling</h4>
+                </div>
+                <p class="text-[11px] text-slate-600 leading-relaxed">
+                  Boilers, furnaces, heat pumps, central A/C units, operating controls/thermostats, distribution ductwork, radiators, flue vent pipes, and air filters.
+                </p>
+              </div>
+
+              <div class="p-5 rounded-2xl bg-white border border-slate-200 shadow-2xs space-y-2">
+                <div class="flex items-center gap-2 text-brand-950 font-bold text-sm">
+                  <i data-lucide="wind" class="w-4 h-4 text-indigo-600"></i>
+                  <h4>Attic & Insulation</h4>
+                </div>
+                <p class="text-[11px] text-slate-600 leading-relaxed">
+                  Attic rafters and roof sheathing, presence of water staining or moisture, insulation levels, continuous soffit and ridge ventilation, and exhaust ducts.
+                </p>
+              </div>
+
+              <div class="p-5 rounded-2xl bg-white border border-slate-200 shadow-2xs space-y-2">
+                <div class="flex items-center gap-2 text-brand-950 font-bold text-sm">
+                  <i data-lucide="check-square" class="w-4 h-4 text-emerald-600"></i>
+                  <h4>Interior & Bathrooms</h4>
+                </div>
+                <p class="text-[11px] text-slate-600 leading-relaxed">
+                  Windows, window operators, representative interior doors, walls, ceilings, stairs, railings, countertops, cabinets, exhaust ventilation fans, and built-in appliances.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Massachusetts Specific Guidance -->
+          <div class="grid lg:grid-cols-12 gap-8 items-center bg-brand-950 text-white rounded-3xl p-6 sm:p-10 border border-brand-900 shadow-lg">
+            <div class="lg:col-span-8 space-y-3">
+              <span class="text-xs font-bold text-sky-400 uppercase tracking-widest">State Programs &amp; Compliance</span>
+              <h3 class="font-heading font-extrabold text-xl sm:text-2xl text-white">
+                Standards of Practice &amp; MassSave Energy Rebates
+              </h3>
+              <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">
+                All inspections are conducted in strict accordance with the Massachusetts Standard of Practice (266 CMR 6.00). In addition, our reports connect clients to <strong>MassSave</strong>, which may provide funding, rebates, and no-cost energy assessments for qualifying energy-efficient improvements and equipment upgrades.
+              </p>
+              <div class="flex flex-wrap gap-4 pt-2 text-xs font-semibold text-slate-300">
+                <span class="flex items-center gap-1.5">
+                  <i data-lucide="phone" class="w-3.5 h-3.5 text-sky-400"></i> MassSave: (866) 527-7283
+                </span>
+                <span class="flex items-center gap-1.5">
+                  <i data-lucide="external-link" class="w-3.5 h-3.5 text-sky-400"></i> www.masssave.com
+                </span>
+              </div>
+            </div>
+
+            <div class="lg:col-span-4 flex flex-col sm:flex-row lg:flex-col gap-3 justify-center">
+              <a href="https://app.spectora.com/home-inspectors/closing-home-inspections-llc/sample_report?sample_id=20888" target="_blank" rel="noopener noreferrer" class="px-5 py-3 rounded-xl bg-sky-600 hover:bg-sky-500 text-white font-bold text-xs uppercase tracking-wider text-center transition shadow-md flex items-center justify-center gap-2">
+                <span>View Full Sample Report</span>
+                <i data-lucide="external-link" class="w-3.5 h-3.5 text-white"></i>
+              </a>
+              <button onclick="openBookingModal()" class="px-5 py-3 rounded-xl bg-white/10 hover:bg-white/20 border border-white/20 text-white font-bold text-xs uppercase tracking-wider text-center transition">
+                Book Your Inspection
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </div>
+
+    <!-- ******************** PAGE 4: AREAS WE COVER ******************** -->
+    <div id="page-areas" class="page-view">
+      <section class="py-16 bg-white border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          
+          <div class="text-center max-w-3xl mx-auto mb-12">
+            <span class="text-sky-600 text-xs font-bold uppercase tracking-widest">Western MA &amp; Northern CT</span>
+            <h1 class="font-heading text-3xl sm:text-5xl font-extrabold text-brand-950 tracking-tight mt-1">Coverage Area</h1>
+            <p class="text-base sm:text-lg font-semibold text-brand-900 mt-2">
+              We offer Home Inspections in these areas and Northern Connecticut
+            </p>
+            <p class="text-slate-600 text-sm sm:text-base mt-2 max-w-2xl mx-auto leading-relaxed">
+              If you’re looking for a reliable, trustworthy home inspection team in Western Massachusetts and Northern Connecticut, we are here and ready to help.
+            </p>
+
+            <div class="mt-6 flex flex-wrap items-center justify-center gap-3">
+              <span class="inline-flex items-center gap-2 px-4 py-2 rounded-2xl bg-amber-50 text-amber-900 border border-amber-200 text-xs font-bold shadow-2xs">
+                <i data-lucide="bug" class="w-4 h-4 text-amber-600"></i>
+                Termite Inspections
+              </span>
+              <span class="inline-flex items-center gap-2 px-4 py-2 rounded-2xl bg-sky-50 text-sky-900 border border-sky-200 text-xs font-bold shadow-2xs">
+                <i data-lucide="camera" class="w-4 h-4 text-sky-600"></i>
+                Drone Roof Evaluations
+              </span>
+              <span class="inline-flex items-center gap-2 px-4 py-2 rounded-2xl bg-emerald-50 text-emerald-900 border border-emerald-200 text-xs font-bold shadow-2xs">
+                <i data-lucide="languages" class="w-4 h-4 text-emerald-600"></i>
+                Hablamos Español
+              </span>
+            </div>
+          </div>
+
+          <!-- Highlight Banner -->
+          <div class="bg-brand-950 text-white rounded-3xl p-6 sm:p-8 mb-10 shadow-lg border border-brand-900">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+              <div class="space-y-1 text-center md:text-left">
+                <span class="text-xs font-bold uppercase tracking-widest text-sky-400">Primary County Coverage</span>
+                <h2 class="font-heading text-xl sm:text-2xl font-extrabold text-white">
+                  Franklin, Hampshire, Hampden &amp; Berkshire County
+                </h2>
+                <p class="text-xs sm:text-sm text-slate-300">
+                  Full residential property evaluations across Western Massachusetts and surrounding Northern Connecticut communities.
+                </p>
+              </div>
+              <button onclick="openBookingModal()" class="px-6 py-3.5 rounded-xl bg-sky-600 hover:bg-sky-500 text-white font-bold text-xs uppercase tracking-wider transition shadow-md shrink-0 flex items-center gap-2">
+                <span>Book In Your Town</span>
+                <i data-lucide="arrow-right" class="w-4 h-4 text-white"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="grid lg:grid-cols-12 gap-10 items-start">
+            
+            <div class="lg:col-span-8 space-y-8">
+              
+              <!-- 21 Cities & Towns Served Directory -->
+              <div class="bg-slate-50 p-6 sm:p-8 rounded-3xl border border-slate-200 shadow-2xs">
+                <div class="flex items-center justify-between flex-wrap gap-2 mb-6 pb-4 border-b border-slate-200">
+                  <div>
+                    <h3 class="font-heading font-extrabold text-lg text-brand-950">Cities &amp; Towns We Inspect</h3>
+                    <p class="text-xs text-slate-500">Regularly scheduled on-site inspections in the following communities:</p>
+                  </div>
+                  <span class="px-3 py-1 bg-white rounded-xl border border-slate-200 text-xs font-bold text-sky-700">
+                    21+ Service Hubs
+                  </span>
+                </div>
+
+                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2.5">
+                  <div class="p-2.5 bg-white rounded-xl border border-slate-200/90 text-xs font-semibold text-brand-950 flex items-center gap-2 hover:border-sky-400 transition">
+                    <i data-lucide="map-pin" class="w-3.5 h-3.5 text-sky-600 shrink-0"></i>
+                    <span>Amherst</span>
+                  </div>
+                  <div class="p-2.5 bg-white rounded-xl border border-slate-200/90 text-xs font-semibold text-brand-950 flex items-center gap-2 hover:border-sky-400 transition">
+                    <i data-lucide="map-pin" class="w-3.5 h-3.5 text-sky-600 shrink-0"></i>
+                    <span>Belchertown</span>
+                  </div>
+                  <div class="p-2.5 bg-white rounded-xl border border-slate-200/90 text-xs font-semibold text-brand-950 flex items-center gap-2 hover:border-sky-400 transition">
+                    <i data-lucide="map-pin" class="w-3.5 h-3.5 text-sky-600 shrink-0"></i>
+                    <span>Chicopee</span>
+                  </div>
+                  <div class="p-2.5 bg-white rounded-xl border border-slate-200/90 text-xs font-semibold text-brand-950 flex items-center gap-2 hover:border-sky-400 transition">
+                    <i data-lucide="map-pin" class="w-3.5 h-3.5 text-sky-600 shrink-0"></i>
+                    <span>Easthampton</span>
+                  </div>
+                  <div class="p-2.5 bg-white rounded-xl border border-slate-200/90 text-xs font-semibold text-brand-950 flex items-center gap-2 hover:border-sky-400 transition">
+                    <i data-lucide="map-pin" class="w-3.5 h-3.5 text-sky-600 shrink-0"></i>
+                    <span>East Longmeadow</span>
+                  </div>
+                  <div class="p-2.5 bg-white rounded-xl border border-slate-200/90 text-xs font-semibold text-brand-950 flex items-center gap-2 hover:border-sky-400 transition">
+                    <i data-lucide="map-pin" class="w-3.5 h-3.5 text-sky-600 shrink-0"></i>
+                    <span>Granby</span>
+                  </div>
+                  <div class="p-2.5 bg-white rounded-xl border border-slate-200/90 text-xs font-semibold text-brand-950 flex items-center gap-2 hover:border-sky-400 transition">
+                    <i data-lucide="map-pin" class="w-3.5 h-3.5 text-sky-600 shrink-0"></i>
+                    <span>Greenfield</span>
+                  </div>
+                  <div class="p-2.5 bg-white rounded-xl border border-slate-200/90 text-xs font-semibold text-brand-950 flex items-center gap-2 hover:border-sky-400 transition">
+                    <i data-lucide="map-pin" class="w-3.5 h-3.5 text-sky-600 shrink-0"></i>
+                    <span>Hadley</span>
+                  </div>
+                  <div class="p-2.5 bg-white rounded-xl border border-slate-200/90 text-xs font-semibold text-brand-950 flex items-center gap-2 hover:border-sky-400 transition">
+                    <i data-lucide="map-pin" class="w-3.5 h-3.5 text-sky-600 shrink-0"></i>
+                    <span>Hampden</span>
+                  </div>
+                  <div class="p-2.5 bg-white rounded-xl border border-slate-200/90 text-xs font-semibold text-brand-950 flex items-center gap-2 hover:border-sky-400 transition">
+                    <i data-lucide="map-pin" class="w-3.5 h-3.5 text-sky-600 shrink-0"></i>
+                    <span>Holyoke</span>
+                  </div>
+                  <div class="p-2.5 bg-white rounded-xl border border-slate-200/90 text-xs font-semibold text-brand-950 flex items-center gap-2 hover:border-sky-400 transition">
+                    <i data-lucide="map-pin" class="w-3.5 h-3.5 text-sky-600 shrink-0"></i>
+                    <span>Longmeadow</span>
+                  </div>
+                  <div class="p-2.5 bg-white rounded-xl border border-slate-200/90 text-xs font-semibold text-brand-950 flex items-center gap-2 hover:border-sky-400 transition">
+                    <i data-lucide="map-pin" class="w-3.5 h-3.5 text-sky-600 shrink-0"></i>
+                    <span>Ludlow</span>
+                  </div>
+                  <div class="p-2.5 bg-white rounded-xl border border-slate-200/90 text-xs font-semibold text-brand-950 flex items-center gap-2 hover:border-sky-400 transition">
+                    <i data-lucide="map-pin" class="w-3.5 h-3.5 text-sky-600 shrink-0"></i>
+                    <span>Northampton</span>
+                  </div>
+                  <div class="p-2.5 bg-white rounded-xl border border-slate-200/90 text-xs font-semibold text-brand-950 flex items-center gap-2 hover:border-sky-400 transition">
+                    <i data-lucide="map-pin" class="w-3.5 h-3.5 text-sky-600 shrink-0"></i>
+                    <span>Palmer</span>
+                  </div>
+                  <div class="p-2.5 bg-white rounded-xl border border-slate-200/90 text-xs font-semibold text-brand-950 flex items-center gap-2 hover:border-sky-400 transition">
+                    <i data-lucide="map-pin" class="w-3.5 h-3.5 text-sky-600 shrink-0"></i>
+                    <span>Pittsfield</span>
+                  </div>
+                  <div class="p-2.5 bg-white rounded-xl border border-slate-200/90 text-xs font-semibold text-brand-950 flex items-center gap-2 hover:border-sky-400 transition">
+                    <i data-lucide="map-pin" class="w-3.5 h-3.5 text-sky-600 shrink-0"></i>
+                    <span>South Hadley</span>
+                  </div>
+                  <div class="p-2.5 bg-white rounded-xl border border-slate-200/90 text-xs font-semibold text-brand-950 flex items-center gap-2 hover:border-sky-400 transition">
+                    <i data-lucide="map-pin" class="w-3.5 h-3.5 text-sky-600 shrink-0"></i>
+                    <span>Springfield</span>
+                  </div>
+                  <div class="p-2.5 bg-white rounded-xl border border-slate-200/90 text-xs font-semibold text-brand-950 flex items-center gap-2 hover:border-sky-400 transition">
+                    <i data-lucide="map-pin" class="w-3.5 h-3.5 text-sky-600 shrink-0"></i>
+                    <span>Ware</span>
+                  </div>
+                  <div class="p-2.5 bg-white rounded-xl border border-slate-200/90 text-xs font-semibold text-brand-950 flex items-center gap-2 hover:border-sky-400 transition">
+                    <i data-lucide="map-pin" class="w-3.5 h-3.5 text-sky-600 shrink-0"></i>
+                    <span>West Springfield</span>
+                  </div>
+                  <div class="p-2.5 bg-white rounded-xl border border-slate-200/90 text-xs font-semibold text-brand-950 flex items-center gap-2 hover:border-sky-400 transition">
+                    <i data-lucide="map-pin" class="w-3.5 h-3.5 text-sky-600 shrink-0"></i>
+                    <span>Westfield</span>
+                  </div>
+                  <div class="p-2.5 bg-white rounded-xl border border-slate-200/90 text-xs font-semibold text-brand-950 flex items-center gap-2 hover:border-sky-400 transition">
+                    <i data-lucide="map-pin" class="w-3.5 h-3.5 text-sky-600 shrink-0"></i>
+                    <span>Wilbraham</span>
+                  </div>
+                  <div class="p-2.5 bg-sky-50 rounded-xl border border-sky-200 text-xs font-bold text-sky-900 flex items-center gap-2">
+                    <i data-lucide="compass" class="w-3.5 h-3.5 text-sky-600 shrink-0"></i>
+                    <span>Northern CT</span>
+                  </div>
+                </div>
+
+                <div class="mt-6 pt-4 border-t border-slate-200 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-2">
+                  <span>Don't see your specific town listed above?</span>
+                  <a href="tel:4135570847" class="font-bold text-sky-700 hover:underline flex items-center gap-1">
+                    <i data-lucide="phone" class="w-3.5 h-3.5"></i> Call (413) 557-0847 for immediate scheduling
+                  </a>
+                </div>
+              </div>
+
+              <!-- Interactive ZIP Code Checker -->
+              <div class="bg-slate-50 p-6 rounded-3xl border border-slate-200 shadow-2xs">
+                <h4 class="font-heading font-bold text-brand-950 text-sm sm:text-base mb-1">Instant Coverage ZIP Code Lookup</h4>
+                <p class="text-xs text-slate-500 mb-4">Enter your 5-digit Western MA or Northern CT ZIP code to verify coverage.</p>
+                
+                <div class="flex gap-2">
+                  <input type="text" id="zip-input" maxlength="5" placeholder="e.g. 01103, 01002, 01201" class="px-4 py-2.5 rounded-xl border border-slate-300 text-xs font-mono w-52 focus:ring-2 focus:ring-brand-900">
+                  <button onclick="checkZipCoverage()" class="px-5 py-2.5 rounded-xl bg-brand-950 hover:bg-brand-900 text-white text-xs font-bold transition">
+                    Check Coverage
+                  </button>
+                </div>
+                <div id="zip-feedback" class="mt-3 text-xs font-semibold hidden"></div>
+              </div>
+
+            </div>
+
+            <!-- Regional & Specialty Services Side Card -->
+            <div class="lg:col-span-4 space-y-6">
+              
+              <div class="bg-white p-6 rounded-3xl border border-slate-200 shadow-sm space-y-4">
+                <div class="flex items-center gap-2">
+                  <div class="w-9 h-9 rounded-xl bg-sky-100 text-brand-900 flex items-center justify-center font-bold">
+                    <i data-lucide="plus-circle" class="w-5 h-5 text-sky-600"></i>
+                  </div>
+                  <div>
+                    <h3 class="font-heading font-bold text-brand-950 text-base">Additional Services</h3>
+                    <p class="text-[11px] text-slate-500">Available across all coverage zones</p>
+                  </div>
+                </div>
+
+                <div class="space-y-3 pt-2">
+                  <div class="p-3.5 rounded-2xl bg-slate-50 border border-slate-200">
+                    <div class="flex items-center gap-2 font-bold text-xs text-brand-950 mb-1">
+                      <i data-lucide="bug" class="w-4 h-4 text-amber-600"></i>
+                      <span>Termite &amp; WDO Inspections</span>
+                    </div>
+                    <p class="text-[11px] text-slate-600 leading-relaxed">
+                      Detailed Wood-Destroying Organism documentation for real estate transactions and mortgage loan requirements.
+                    </p>
+                  </div>
+
+                  <div class="p-3.5 rounded-2xl bg-slate-50 border border-slate-200">
+                    <div class="flex items-center gap-2 font-bold text-xs text-brand-950 mb-1">
+                      <i data-lucide="camera" class="w-4 h-4 text-sky-600"></i>
+                      <span>Drone Roof Inspections</span>
+                    </div>
+                    <p class="text-[11px] text-slate-600 leading-relaxed">
+                      High-resolution aerial assessments for steep pitches, multi-story buildings, and roofs with restricted ladder access.
+                    </p>
+                  </div>
+
+                  <div class="p-3.5 rounded-2xl bg-emerald-50/80 border border-emerald-200">
+                    <div class="flex items-center gap-2 font-bold text-xs text-emerald-950 mb-1">
+                      <i data-lucide="languages" class="w-4 h-4 text-emerald-600"></i>
+                      <span>Hablamos Español</span>
+                    </div>
+                    <p class="text-[11px] text-emerald-800 leading-relaxed">
+                      Ofrecemos inspecciones y consultas completas en español para que entienda cada detalle con absoluta claridad.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Booking Prompt -->
+              <div class="bg-brand-950 text-white p-6 rounded-3xl border border-brand-900 shadow-md space-y-4">
+                <span class="text-xs font-bold text-sky-400 uppercase tracking-widest">Reliable &amp; Trustworthy</span>
+                <h4 class="font-heading font-bold text-base text-white">Ready to Schedule?</h4>
+                <p class="text-xs text-slate-300 leading-relaxed">
+                  Fast turnaround appointments available this week across Berkshire, Franklin, Hampden, Hampshire, and Northern CT.
+                </p>
+                <button onclick="openBookingModal()" class="w-full py-3 rounded-xl bg-sky-600 hover:bg-sky-500 text-white font-bold text-xs uppercase tracking-wider transition">
+                  Schedule Your Inspection &rarr;
+                </button>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+    </div>
+
+    <!-- ******************** PAGE 5: BLOG & SEMINARS ******************** -->
+    <div id="page-blog" class="page-view">
+      <section class="py-16 bg-white border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          
+          <div class="text-center max-w-3xl mx-auto mb-14">
+            <span class="text-sky-600 text-xs font-bold uppercase tracking-widest">Practical Insights</span>
+            <h1 class="font-heading text-3xl sm:text-5xl font-extrabold text-brand-950 tracking-tight mt-1">Inspection & Home Care Blog</h1>
+            <p class="text-slate-600 text-sm sm:text-base mt-2">Expert tips from our lead inspector on building science, seasonal care, and closing preparation.</p>
+          </div>
+
+          <!-- Seminar Circular Highlight -->
+          <div class="bg-slate-50 rounded-3xl p-8 border border-slate-200 mb-16 flex flex-col md:flex-row items-center gap-8 shadow-2xs">
+            <div class="relative shrink-0">
+              <div class="w-36 h-36 rounded-full overflow-hidden border-4 border-white shadow-xl ring-4 ring-sky-100">
+                <img 
+                  src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=500&q=80" 
+                  alt="Photos on First Time Home Buyer Seminars" 
+                  class="w-full h-full object-cover"
+                  onerror="this.src='https://placehold.co/400x400/0a192f/ffffff?text=Buyer+Seminar'"
+                />
+              </div>
+              <div class="absolute -bottom-2 -right-2 bg-brand-950 text-white rounded-full p-2 border-2 border-white shadow">
+                <i data-lucide="presentation" class="w-4 h-4 text-sky-400"></i>
+              </div>
+            </div>
+            <div class="space-y-2 text-center md:text-left">
+              <span class="text-sky-600 font-bold text-xs uppercase tracking-widest">Informative Community Seminars</span>
+              <h3 class="font-heading font-extrabold text-2xl text-brand-950">Photos On First Time Home Buyer Seminars</h3>
+              <p class="text-xs sm:text-sm text-slate-600 max-w-2xl leading-relaxed">
+                We regularly instruct first-time home buyer classes for local community organizations, non-profits, and brokerage agencies. Empowering buyers with objective knowledge before they write an offer is at the heart of our mission.
+              </p>
+            </div>
+          </div>
+
+          <div class="grid md:grid-cols-3 gap-8">
+            
+            <!-- Article 1 -->
+            <article class="bg-slate-50 rounded-3xl border border-slate-200 overflow-hidden shadow-2xs hover:shadow-md transition flex flex-col justify-between">
+              <div>
+                <div class="h-48 overflow-hidden relative">
+                  <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=700&q=80" alt="New England Basement" class="w-full h-full object-cover">
+                  <span class="absolute top-3 left-3 bg-brand-950/90 text-white text-[10px] font-bold px-2 py-0.5 rounded-lg">Basements & Drainage</span>
+                </div>
+                <div class="p-6 space-y-2">
+                  <div class="text-[11px] text-slate-400">5 min read &bull; Building Science</div>
+                  <h3 class="font-heading font-bold text-base text-brand-950">Top 5 Red Flags in New England Basements</h3>
+                  <p class="text-xs text-slate-600 leading-relaxed">
+                    From white powdery efflorescence on fieldstone walls to hidden sump pump failure modes, learn what damp basements really signal.
+                  </p>
+                </div>
+              </div>
+              <div class="p-6 pt-0">
+                <button onclick="openBlogArticle(1)" class="text-xs font-bold text-sky-700 hover:text-brand-950 flex items-center gap-1">
+                  Read Full Article &rarr;
+                </button>
+              </div>
+            </article>
+
+            <!-- Article 2 -->
+            <article class="bg-slate-50 rounded-3xl border border-slate-200 overflow-hidden shadow-2xs hover:shadow-md transition flex flex-col justify-between">
+              <div>
+                <div class="h-48 overflow-hidden relative">
+                  <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=700&q=80" alt="Seminar classroom" class="w-full h-full object-cover">
+                  <span class="absolute top-3 left-3 bg-brand-950/90 text-white text-[10px] font-bold px-2 py-0.5 rounded-lg">First-Time Buyers</span>
+                </div>
+                <div class="p-6 space-y-2">
+                  <div class="text-[11px] text-slate-400">4 min read &bull; Closing Strategy</div>
+                  <h3 class="font-heading font-bold text-base text-brand-950">What to Expect at a First-Time Buyer Seminar</h3>
+                  <p class="text-xs text-slate-600 leading-relaxed">
+                    A recap of our educational workshops: how to interpret an inspection report, understanding repair requests, and budgeting post-closing.
+                  </p>
+                </div>
+              </div>
+              <div class="p-6 pt-0">
+                <button onclick="openBlogArticle(2)" class="text-xs font-bold text-sky-700 hover:text-brand-950 flex items-center gap-1">
+                  Read Full Article &rarr;
+                </button>
+              </div>
+            </article>
+
+            <!-- Article 3 -->
+            <article class="bg-slate-50 rounded-3xl border border-slate-200 overflow-hidden shadow-2xs hover:shadow-md transition flex flex-col justify-between">
+              <div>
+                <div class="h-48 overflow-hidden relative">
+                  <img src="https://images.unsplash.com/photo-1517581177682-a085bb7ffb15?auto=format&fit=crop&w=700&q=80" alt="Snow roof ice dam" class="w-full h-full object-cover">
+                  <span class="absolute top-3 left-3 bg-brand-950/90 text-white text-[10px] font-bold px-2 py-0.5 rounded-lg">Winter Care</span>
+                </div>
+                <div class="p-6 space-y-2">
+                  <div class="text-[11px] text-slate-400">6 min read &bull; Preventative Maintenance</div>
+                  <h3 class="font-heading font-bold text-base text-brand-950">Winterizing & Ice Dam Prevention for Roofs</h3>
+                  <p class="text-xs text-slate-600 leading-relaxed">
+                    Why attic airflow and insulation R-values matter more than heating cables when preventing severe ceiling leaks during freeze-thaw cycles.
+                  </p>
+                </div>
+              </div>
+              <div class="p-6 pt-0">
+                <button onclick="openBlogArticle(3)" class="text-xs font-bold text-sky-700 hover:text-brand-950 flex items-center gap-1">
+                  Read Full Article &rarr;
+                </button>
+              </div>
+            </article>
+
+          </div>
+
+        </div>
+      </section>
+    </div>
+
+    <!-- ******************** PAGE 6: FAQ ******************** -->
+    <div id="page-faq" class="page-view">
+      <section class="py-16 bg-white border-b border-slate-200">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          
+          <div class="text-center max-w-2xl mx-auto mb-14">
+            <span class="text-sky-600 text-xs font-bold uppercase tracking-widest">Inspection Knowledge Base</span>
+            <h1 class="font-heading text-3xl sm:text-5xl font-extrabold text-brand-950 tracking-tight mt-1">Common Questions</h1>
+            <p class="text-slate-500 text-xs sm:text-sm mt-2 italic font-medium">Thorough and Diligent Independent Property Evaluations</p>
+          </div>
+
+          <div class="grid md:grid-cols-2 gap-8 items-start">
+            
+            <!-- Question 1 -->
+            <div class="bg-slate-50 rounded-3xl p-6 sm:p-8 border border-slate-200 shadow-2xs space-y-4">
+              <div class="flex items-center gap-3">
+                <div class="w-9 h-9 rounded-xl bg-sky-100 text-brand-950 flex items-center justify-center font-bold text-sm shrink-0">
+                  <i data-lucide="help-circle" class="w-5 h-5 text-sky-600"></i>
+                </div>
+                <h3 class="font-heading font-extrabold text-lg sm:text-xl text-brand-950 leading-snug">
+                  Why do I need a Home Inspection in Massachusetts?
+                </h3>
+              </div>
+              <div class="text-xs sm:text-sm text-slate-600 space-y-3 leading-relaxed border-t border-slate-200/80 pt-4">
+                <p>
+                  The home inspection is a visual non invasive inspection that makes note of deficiencies that make a home unsafe. <strong>Safety is the number one priority</strong> with your home inspection.
+                </p>
+                <p>
+                  The home inspection also gives home sellers a chance to make needed repairs to their home, with the contractors of their choosing, prior to listing their home on the market.
+                </p>
+                <p>
+                  A home inspection provides home buyers with the information needed to budget for repairs and/or negotiate on a home sale price.
+                </p>
+                <p class="text-brand-950 font-semibold bg-white p-3 rounded-xl border border-slate-200">
+                  In all instances the home inspection and home inspection report is an objective 3rd party view of the home.
+                </p>
+              </div>
+            </div>
+
+            <!-- Question 2 -->
+            <div class="bg-slate-50 rounded-3xl p-6 sm:p-8 border border-slate-200 shadow-2xs space-y-4">
+              <div class="flex items-center gap-3">
+                <div class="w-9 h-9 rounded-xl bg-emerald-100 text-emerald-900 flex items-center justify-center font-bold text-sm shrink-0">
+                  <i data-lucide="clipboard-check" class="w-5 h-5 text-emerald-600"></i>
+                </div>
+                <h3 class="font-heading font-extrabold text-lg sm:text-xl text-brand-950 leading-snug">
+                  What does the Home Inspection cover?
+                </h3>
+              </div>
+              <div class="border-t border-slate-200/80 pt-4">
+                <div class="grid sm:grid-cols-2 gap-4">
+                  <div class="bg-white p-4 rounded-2xl border border-slate-200">
+                    <div class="flex items-center gap-1.5 font-bold text-xs uppercase tracking-wider text-brand-950 mb-2.5 pb-2 border-b border-slate-100">
+                      <i data-lucide="hammer" class="w-3.5 h-3.5 text-sky-600"></i> Structural:
+                    </div>
+                    <ul class="text-xs text-slate-600 space-y-1.5">
+                      <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-sky-500"></span>Roofing</li>
+                      <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-sky-500"></span>Chimney/Fireplace</li>
+                      <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-sky-500"></span>Exterior Siding</li>
+                      <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-sky-500"></span>Gutters &amp; Down Spouts</li>
+                      <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-sky-500"></span>Grounds</li>
+                      <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-sky-500"></span>Attic/Basement/Framing</li>
+                      <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-sky-500"></span>Garage</li>
+                      <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-sky-500"></span>Foundation</li>
+                      <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-sky-500"></span>Patio/Deck/Porches</li>
+                    </ul>
+                  </div>
+
+                  <div class="bg-white p-4 rounded-2xl border border-slate-200">
+                    <div class="flex items-center gap-1.5 font-bold text-xs uppercase tracking-wider text-brand-950 mb-2.5 pb-2 border-b border-slate-100">
+                      <i data-lucide="cog" class="w-3.5 h-3.5 text-emerald-600"></i> Mechanical:
+                    </div>
+                    <ul class="text-xs text-slate-600 space-y-1.5">
+                      <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>Water Heaters</li>
+                      <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>Electrical</li>
+                      <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>Heating Systems</li>
+                      <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>Cooling Systems</li>
+                      <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>Plumbing Systems</li>
+                      <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>Walls/Ceilings</li>
+                      <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>Doors/Windows</li>
+                      <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>Kitchens</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Question 3 -->
+            <div class="bg-slate-50 rounded-3xl p-6 sm:p-8 border border-slate-200 shadow-2xs space-y-4">
+              <div class="flex items-center gap-3">
+                <div class="w-9 h-9 rounded-xl bg-amber-100 text-amber-900 flex items-center justify-center font-bold text-sm shrink-0">
+                  <i data-lucide="clock" class="w-5 h-5 text-amber-600"></i>
+                </div>
+                <h3 class="font-heading font-extrabold text-lg sm:text-xl text-brand-950 leading-snug">
+                  How long does the Home Inspection take?
+                </h3>
+              </div>
+              <div class="text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-200/80 pt-4">
+                <div class="bg-white p-4 rounded-2xl border border-slate-200">
+                  <p class="font-semibold text-brand-950 text-sm">
+                    An average home inspection can last around 2-4 hours.
+                  </p>
+                  <p class="text-xs text-slate-500 mt-2">
+                    Timing varies depending on square footage, accessibility of the attic and crawlspaces, and the overall age and configuration of the mechanical systems.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Question 4 -->
+            <div class="bg-slate-50 rounded-3xl p-6 sm:p-8 border border-slate-200 shadow-2xs space-y-4">
+              <div class="flex items-center gap-3">
+                <div class="w-9 h-9 rounded-xl bg-indigo-100 text-indigo-900 flex items-center justify-center font-bold text-sm shrink-0">
+                  <i data-lucide="badge-dollar-sign" class="w-5 h-5 text-indigo-600"></i>
+                </div>
+                <h3 class="font-heading font-extrabold text-lg sm:text-xl text-brand-950 leading-snug">
+                  How much does a Home Inspection cost?
+                </h3>
+              </div>
+              <div class="text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-200/80 pt-4 space-y-3">
+                <div class="bg-white p-4 rounded-2xl border border-slate-200 space-y-2">
+                  <p class="text-slate-700">
+                    The cost for a home inspection starts at <span class="text-brand-950 font-extrabold text-base">$475.00</span> and goes up depending on the square footage, age, and bedrooms of the property.
+                  </p>
+                  <p class="text-slate-700 pt-1 border-t border-slate-100">
+                    Move in move out inspections start at <span class="text-brand-950 font-extrabold text-base">$125.00</span>.
+                  </p>
+                </div>
+                <div class="flex items-center justify-between p-3 rounded-xl bg-brand-950 text-white">
+                  <span class="font-semibold text-xs">Call us for an exact quote:</span>
+                  <a href="tel:4135570847" class="font-bold text-sky-400 hover:underline text-xs flex items-center gap-1">
+                    <i data-lucide="phone" class="w-3.5 h-3.5"></i> 413-557-0847
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Bottom Contact Stripe -->
+          <div class="mt-12 p-6 rounded-3xl bg-brand-950 text-white flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
+            <div>
+              <p class="font-heading font-bold text-base">Have additional questions regarding your property?</p>
+              <p class="text-xs text-slate-300">Contact Closing Home Inspections LLC. directly via phone, fax, or email.</p>
+            </div>
+            <div class="flex items-center gap-4 text-xs font-semibold">
+              <a href="tel:4135570847" class="px-4 py-2 rounded-xl bg-sky-600 hover:bg-sky-500 transition text-white">
+                M: 413-557-0847
+              </a>
+              <span class="text-slate-400 hidden md:inline">F: 413-363-9757</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </div>
+
+  </main>
+
+  <!-- MODAL: Booking / Scheduling -->
+  <div id="booking-modal" class="fixed inset-0 z-50 bg-brand-950/70 backdrop-blur-xs hidden flex items-center justify-center p-4">
+    <div class="bg-white rounded-3xl max-w-lg w-full p-6 sm:p-8 shadow-2xl border border-slate-200 relative max-h-[90vh] overflow-y-auto">
+      <button onclick="closeBookingModal()" class="absolute top-5 right-5 text-slate-400 hover:text-slate-600 p-1">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+
+      <div class="mb-5">
+        <span class="text-xs font-bold text-sky-600 uppercase tracking-wider">Fast Turnaround Scheduling</span>
+        <h3 class="font-heading font-extrabold text-2xl text-brand-950 mt-1">Book Your Home Inspection</h3>
+        <p class="text-xs text-slate-500 mt-1">We respond within 2 hours to confirm your appointment time and lockbox details.</p>
+      </div>
+
+      <form onsubmit="handleBookingModalSubmit(event)" class="space-y-3.5">
+        <div>
+          <label class="block text-xs font-semibold text-slate-700 mb-1">Your Full Name *</label>
+          <input type="text" required placeholder="Jane Doe" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-xs focus:ring-2 focus:ring-brand-900">
+        </div>
+
+        <div class="grid grid-cols-2 gap-3">
+          <div>
+            <label class="block text-xs font-semibold text-slate-700 mb-1">Phone Number *</label>
+            <input type="tel" required placeholder="(413) 000-0000" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-xs focus:ring-2 focus:ring-brand-900">
+          </div>
+          <div>
+            <label class="block text-xs font-semibold text-slate-700 mb-1">Email Address *</label>
+            <input type="email" required placeholder="jane@example.com" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-xs focus:ring-2 focus:ring-brand-900">
+          </div>
+        </div>
+
+        <div>
+          <label class="block text-xs font-semibold text-slate-700 mb-1">Inspected Property Address *</label>
+          <input type="text" required placeholder="123 Main St, Springfield, MA 01103" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-xs focus:ring-2 focus:ring-brand-900">
+        </div>
+
+        <div class="grid grid-cols-2 gap-3">
+          <div>
+            <label class="block text-xs font-semibold text-slate-700 mb-1">Preferred Date</label>
+            <input type="date" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-xs focus:ring-2 focus:ring-brand-900">
+          </div>
+          <div>
+            <label class="block text-xs font-semibold text-slate-700 mb-1">Property Type</label>
+            <select class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-xs focus:ring-2 focus:ring-brand-900">
+              <option>Single Family Home</option>
+              <option>Condo / Townhouse</option>
+              <option>Multi-Family (2-4 Units)</option>
+              <option>Commercial Property</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="modal-feedback" class="hidden p-3 rounded-xl bg-emerald-50 text-emerald-900 border border-emerald-200 text-xs font-medium"></div>
+
+        <div class="pt-2">
+          <button type="submit" id="modal-submit-btn" class="w-full py-3.5 rounded-xl bg-brand-950 hover:bg-brand-900 text-white font-bold text-xs uppercase tracking-wider transition shadow-md">
+            Confirm & Request Booking
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- MODAL: Blog Reader -->
+  <div id="blog-reader-modal" class="fixed inset-0 z-50 bg-brand-950/70 backdrop-blur-xs hidden flex items-center justify-center p-4">
+    <div class="bg-white rounded-3xl max-w-2xl w-full p-6 sm:p-8 shadow-2xl border border-slate-200 relative max-h-[85vh] overflow-y-auto">
+      <button onclick="closeBlogModal()" class="absolute top-5 right-5 text-slate-400 hover:text-slate-600 p-1">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+
+      <span id="blog-modal-tag" class="text-xs font-bold text-sky-600 uppercase tracking-wider"></span>
+      <h3 id="blog-modal-title" class="font-heading font-extrabold text-2xl text-brand-950 mt-1 mb-4"></h3>
+
+      <div id="blog-modal-body" class="text-xs sm:text-sm text-slate-600 space-y-3.5 leading-relaxed border-t border-slate-100 pt-4"></div>
+
+      <div class="mt-6 pt-4 border-t border-slate-100 flex justify-between items-center">
+        <span class="text-xs text-slate-400">Closing Home Inspections, LLC.</span>
+        <button onclick="closeBlogModal()" class="px-4 py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-semibold">
+          Close Article
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="bg-brand-950 text-slate-400 text-sm mt-auto border-t border-brand-900">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
+
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+        
+        <div class="md:col-span-2 space-y-3">
+          <div class="flex items-center gap-3">
+            <div class="h-10 w-auto max-w-[170px] bg-white p-1 rounded-xl shadow-xs flex items-center">
+              <svg viewBox="0 0 500 245" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-full select-none">
+                <path d="M 6 120 L 98 40 L 168 96" stroke="#4f71be" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M 148 96 L 250 12 L 352 96" stroke="#4f71be" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M 332 96 L 402 40 L 494 120" stroke="#4f71be" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M 2 120 L 498 120" stroke="#4f71be" stroke-width="9" stroke-linecap="round" />
+                <path d="M 34 114 L 98 58 L 150 100" stroke="#9ca3af" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M 180 114 L 250 48 L 320 114" stroke="#9ca3af" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M 350 100 L 402 58 L 466 114" stroke="#9ca3af" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+                <rect x="233" y="78" width="14" height="14" fill="#4f71be" rx="1.5" />
+                <rect x="253" y="78" width="14" height="14" fill="#4f71be" rx="1.5" />
+                <rect x="233" y="98" width="14" height="14" fill="#4f71be" rx="1.5" />
+                <rect x="253" y="98" width="14" height="14" fill="#4f71be" rx="1.5" />
+                <rect x="88" y="94" width="8.5" height="8.5" fill="#4f71be" rx="1" />
+                <rect x="100.5" y="94" width="8.5" height="8.5" fill="#4f71be" rx="1" />
+                <rect x="88" y="106.5" width="8.5" height="8.5" fill="#4f71be" rx="1" />
+                <rect x="100.5" y="106.5" width="8.5" height="8.5" fill="#4f71be" rx="1" />
+                <rect x="391" y="94" width="8.5" height="8.5" fill="#4f71be" rx="1" />
+                <rect x="403.5" y="94" width="8.5" height="8.5" fill="#4f71be" rx="1" />
+                <rect x="391" y="106.5" width="8.5" height="8.5" fill="#4f71be" rx="1" />
+                <rect x="403.5" y="106.5" width="8.5" height="8.5" fill="#4f71be" rx="1" />
+                <text x="250" y="196" text-anchor="middle" font-family="'Plus Jakarta Sans', 'Outfit', sans-serif" font-size="78" font-weight="800" fill="#4f71be" letter-spacing="0.04em">CLOSING</text>
+                <line x1="16" y1="230" x2="88" y2="230" stroke="#4f71be" stroke-width="3" stroke-linecap="round" />
+                <line x1="412" y1="230" x2="484" y2="230" stroke="#4f71be" stroke-width="3" stroke-linecap="round" />
+                <text x="250" y="235" text-anchor="middle" font-family="'Plus Jakarta Sans', 'Outfit', sans-serif" font-size="20.5" font-weight="800" fill="#787e87" letter-spacing="0.14em">HOME INSPECTIONS LLC.</text>
+              </svg>
+            </div>
+          </div>
+          <p class="text-xs text-slate-400 max-w-md leading-relaxed">
+            Professional, dependable, and unbiased residential property inspections helping buyers and sellers make informed real estate closing decisions across Western & Central Massachusetts.
+          </p>
+          <div class="text-xs text-slate-400 pt-2 space-y-1">
+            <p><strong class="text-slate-300">Office Hours:</strong> Monday – Saturday: 8:00 AM – 7:00 PM</p>
+            <p><strong class="text-slate-300">Territory:</strong> Hampden, Hampshire, Franklin & Worcester Counties</p>
+          </div>
+        </div>
+
+        <div>
+          <h5 class="text-white font-bold text-xs uppercase tracking-wider mb-3">Pages</h5>
+          <ul class="space-y-2 text-xs">
+            <li><a href="#home" class="hover:text-white transition-colors">Home</a></li>
+            <li><a href="#about" class="hover:text-white transition-colors">About Us</a></li>
+            <li><a href="#reports" class="hover:text-white transition-colors">Sample Reports</a></li>
+            <li><a href="#areas" class="hover:text-white transition-colors">Areas We Cover</a></li>
+            <li><a href="#blog" class="hover:text-white transition-colors">Inspection Blog & Seminars</a></li>
+            <li><a href="#faq" class="hover:text-white transition-colors">FAQ</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h5 class="text-white font-bold text-xs uppercase tracking-wider mb-3">Direct Contact</h5>
+          <ul class="space-y-2 text-xs">
+            <li class="flex items-center gap-2">
+              <i data-lucide="phone" class="w-4 h-4 text-sky-400 shrink-0"></i>
+              <a href="tel:4135570847" class="hover:text-white font-semibold">M: 413-557-0847</a>
+            </li>
+            <li class="flex items-center gap-2">
+              <i data-lucide="printer" class="w-4 h-4 text-sky-400 shrink-0"></i>
+              <span>F: 413-363-9757</span>
+            </li>
+            <li class="flex items-center gap-2">
+              <i data-lucide="mail" class="w-4 h-4 text-sky-400 shrink-0"></i>
+              <a href="mailto:Closinghomeinsp@gmail.com" class="hover:text-white truncate">Closinghomeinsp@gmail.com</a>
+            </li>
+            <li class="flex items-center gap-2">
+              <i data-lucide="check" class="w-4 h-4 text-sky-400 shrink-0"></i>
+              <span>Thorough and Diligent</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="border-t border-brand-900 mt-10 pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
+        <p>&copy;2020&ndash;<span id="year"></span> Closing Home Inspections, LLC. All rights reserved.</p>
+        <div class="flex items-center space-x-6">
+          <a href="#about" class="hover:text-slate-300">Standards of Practice</a>
+          <button onclick="openBookingModal()" class="hover:text-slate-300">Book Online</button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Initialize Lucide Icons
+    lucide.createIcons();
+
+    // Dynamically insert current year safely
+    const yearEl = document.getElementById('year');
+    if (yearEl) {
+      yearEl.textContent = new Date().getFullYear();
+    }
+
+    // ==================== TRUE MULTI-PAGE SPA ROUTER ====================
+    const validPages = ['home', 'about', 'reports', 'areas', 'blog', 'faq'];
+
+    function navigateToPage(pageId) {
+      if (!validPages.includes(pageId)) {
+        pageId = 'home';
+      }
+
+      // Hide all page views
+      validPages.forEach(p => {
+        const pageEl = document.getElementById(`page-${p}`);
+        if (pageEl) {
+          pageEl.classList.remove('active-page');
+        }
+      });
+
+      // Show requested page view
+      const activeTarget = document.getElementById(`page-${pageId}`);
+      if (activeTarget) {
+        activeTarget.classList.add('active-page');
+      }
+
+      // Update desktop nav
+      document.querySelectorAll('.page-nav-link').forEach(link => {
+        const targetAttr = link.getAttribute('data-page');
+        if (targetAttr === pageId) {
+          link.classList.add('active-link');
+          link.classList.remove('text-slate-600', 'hover:bg-slate-200/60');
+        } else {
+          link.classList.remove('active-link');
+          link.classList.add('text-slate-600', 'hover:bg-slate-200/60');
+        }
+      });
+
+      // Update mobile drawer active styles
+      document.querySelectorAll('.mobile-nav-link').forEach(link => {
+        const targetAttr = link.getAttribute('data-page');
+        if (targetAttr === pageId) {
+          link.classList.add('bg-slate-100', 'font-bold', 'text-brand-950');
+        } else {
+          link.classList.remove('bg-slate-100', 'font-bold', 'text-brand-950');
+        }
+      });
+
+      window.scrollTo({ top: 0, behavior: 'instant' });
+      lucide.createIcons();
+    }
+
+    // Hash change listener
+    window.addEventListener('hashchange', () => {
+      const hash = window.location.hash.replace('#', '') || 'home';
+      navigateToPage(hash);
+    });
+
+    // Initialize router on initial page load
+    window.addEventListener('DOMContentLoaded', () => {
+      const initialHash = window.location.hash.replace('#', '') || 'home';
+      navigateToPage(initialHash);
+    });
+
+    // Mobile Navigation Controls
+    const mobileBtn = document.getElementById('mobile-toggle-btn');
+    const mobileDrawer = document.getElementById('mobile-drawer');
+
+    mobileBtn.addEventListener('click', () => {
+      mobileDrawer.classList.toggle('hidden');
+    });
+
+    function closeMobileNav() {
+      mobileDrawer.classList.add('hidden');
+    }
+
+    // Booking Modal Handlers
+    function openBookingModal() {
+      document.getElementById('booking-modal').classList.remove('hidden');
+      lucide.createIcons();
+    }
+
+    function closeBookingModal() {
+      document.getElementById('booking-modal').classList.add('hidden');
+    }
+
+    function handleBookingModalSubmit(e) {
+      e.preventDefault();
+      const btn = document.getElementById('modal-submit-btn');
+      const feedback = document.getElementById('modal-feedback');
+
+      btn.disabled = true;
+      btn.textContent = 'Submitting Request...';
+
+      setTimeout(() => {
+        btn.disabled = false;
+        btn.textContent = 'Confirm & Request Booking';
+        feedback.classList.remove('hidden');
+        feedback.textContent = 'Inspection booking request received! Our inspector will review property details and call you shortly to confirm your appointment.';
+        setTimeout(() => {
+          closeBookingModal();
+          feedback.classList.add('hidden');
+          feedback.textContent = '';
+        }, 2500);
+      }, 700);
+    }
+
+    // ZIP Code Coverage Checker Logic
+    const coveredZipPrefixes = ['010', '011', '012', '013', '014', '015', '016', '060', '061'];
+
+    function checkZipCoverage() {
+      const input = document.getElementById('zip-input').value.trim();
+      const feedback = document.getElementById('zip-feedback');
+
+      if (!input || input.length < 5) {
+        feedback.className = "mt-3 text-xs font-semibold text-rose-600 block";
+        feedback.textContent = "Please enter a valid 5-digit Massachusetts or Northern Connecticut ZIP code.";
+        return;
+      }
+
+      const prefix = input.substring(0, 3);
+      if (coveredZipPrefixes.includes(prefix)) {
+        feedback.className = "mt-3 text-xs font-semibold text-emerald-700 bg-emerald-50 p-3 rounded-xl border border-emerald-200 block";
+        feedback.innerHTML = `&check; <strong>ZIP Code ${input} is in our primary coverage zone!</strong> Same-week appointments are available with zero travel surcharge.`;
+      } else {
+        feedback.className = "mt-3 text-xs font-semibold text-sky-800 bg-sky-50 p-3 rounded-xl border border-sky-200 block";
+        feedback.innerHTML = `ZIP Code ${input} is just outside our primary territory, but we regularly accommodate extended appointments upon request. Call (413) 557-0847 to confirm!`;
+      }
+    }
+
+    // Blog Modal Articles
+    const blogArticles = {
+      1: {
+        tag: "Basements & Drainage",
+        title: "Top 5 Red Flags in New England Basements",
+        body: `
+          <p>New England homes feature some of the country's most varied foundation systems: from 19th-century rubble and fieldstone to mid-century cinderblocks and poured reinforced concrete. Because our region experiences high freeze-thaw cycles and seasonal groundwater swells, basements demand meticulous scrutiny.</p>
+          <h4 class="font-bold text-brand-950 mt-3">1. Efflorescence vs. Active Seepage</h4>
+          <p>White powdery deposits on masonry indicate water has evaporated through the wall, leaving behind mineral salts. While minor dusting is common, heavy crystallization indicates continuous hydrostatic pressure.</p>
+          <h4 class="font-bold text-brand-950 mt-3">2. Horizontal Foundation Cracks</h4>
+          <p>Vertical settlement cracks are typically shrinkage-related. In contrast, horizontal cracks across mortar joints usually signal inward lateral soil pressure that may require carbon fiber reinforcement or steel beams.</p>
+          <h4 class="font-bold text-brand-950 mt-3">3. Sump Pump Redundancy</h4>
+          <p>A basement with an active sump pump should ideally have a secondary battery backup unit. Power outages frequently coincide with heavy rainstorms, leaving unprotected basements vulnerable to flooding.</p>
+        `
+      },
+      2: {
+        tag: "First-Time Home Buyers",
+        title: "What to Expect at a First-Time Home Buyer Seminar",
+        body: `
+          <p>Attending a civic or brokerage first-time home buyer seminar can feel overwhelming with loan officers, realtors, and closing attorneys throwing around technical jargon. In our inspection portion of these workshops, we cut straight to what really matters for buyers.</p>
+          <h4 class="font-bold text-brand-950 mt-3">The Purpose of the Home Inspection</h4>
+          <p>An inspection is not an appraisal, and it is not a municipal building code pass/fail examination. It is an unbiased visual health check of the property's major systems designed to identify substantial safety hazards and deferred capital expenses before closing.</p>
+          <h4 class="font-bold text-brand-950 mt-3">How to Use the Inspection in Negotiations</h4>
+          <p>Sellers are rarely inclined to repair cosmetic blemishes like scuffed paint or squeaky floorboards. However, legitimate structural problems, dangerous electrical panels, or failed furnace heat exchangers give buyers solid leverage for closing credits or escrow escorts.</p>
+        `
+      },
+      3: {
+        tag: "Winter Care",
+        title: "Winterizing & Ice Dam Prevention for Roofs",
+        body: `
+          <p>In Western Massachusetts, severe ice dams form when heat escapes from living spaces into unfinished attic cavities. This warms the roof sheathing, melting snow that runs down the slope and refreezes into thick ice blocks along cold overhangs.</p>
+          <h4 class="font-bold text-brand-950 mt-3">Why Insulation Beats Roof Heat Cables</h4>
+          <p>While zig-zag roof heating cables create temporary melt channels, they do not resolve the root cause: warm air bypasses into the attic. Sealing attic bypasses around can lights, chimney chases, and plumbing stacks is the true cure.</p>
+          <h4 class="font-bold text-brand-950 mt-3">Baffle Vents and Air Circulation</h4>
+          <p>During our inspections, we check that insulation does not choke off soffit airflow vents. Continuous cool airflow through soffits to the ridge keeps roof deck temperatures uniform, halting ice dam accumulation.</p>
+        `
+      }
+    };
+
+    function openBlogArticle(id) {
+      const post = blogArticles[id];
+      if (!post) return;
+
+      document.getElementById('blog-modal-tag').textContent = post.tag;
+      document.getElementById('blog-modal-title').textContent = post.title;
+      document.getElementById('blog-modal-body').innerHTML = post.body;
+      document.getElementById('blog-reader-modal').classList.remove('hidden');
+      lucide.createIcons();
+    }
+
+    function closeBlogModal() {
+      document.getElementById('blog-reader-modal').classList.add('hidden');
+    }
+  </script>
+</body>
+</html>
